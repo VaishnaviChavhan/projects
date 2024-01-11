@@ -1,0 +1,54 @@
+*{
+    background-color: paleturquoise;
+    color: white;
+    text-align: center;
+  }
+  .room-container {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+      grid-gap: 20px;
+      width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 30px;
+    }
+    
+    .room {
+      border: 5px solid #333;
+      padding: 10px;
+      border-radius: 30px;
+    }
+    
+    .student {
+      margin: 5px;
+      background-color: plum;
+      padding: 10px;
+      font-size: 15px;
+      transition: transform 0.5s, background-color 0.5s;
+      border-radius: 30px;
+    }
+    
+    .shuffle-button {
+      display: block;
+      margin: 0 auto;
+      margin-top: 15px;
+      color: white;
+      padding: 20px;
+      border-radius: 30px;
+      background-color: blueviolet;
+    }
+    .head {
+      width: 300px;
+      margin: 20px auto;
+    }
+  
+    .get {
+      padding: 10px;
+      background-color: blueviolet;
+      border-radius: 20px;
+  
+    }
+  
+    .shuffle-button:hover{
+      background-color: rgb(185, 10, 103);
+    }
